@@ -27,7 +27,7 @@ body {
   display: grid;
   grid-template-rows: 1fr 8px 1fr;
 
-  /* La linea temporale centrale */
+  /* Central line */
   .year-line {
     grid-row: 2 / 3;
 

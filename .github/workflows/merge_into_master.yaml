@@ -1,0 +1,30 @@
+name: Merge into master
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+env:
+  MESSAGE: Merge branch `${{ github.head_ref || github.ref_name }}` into `master`
+
+jobs:
+  pull-request:
+    name: Open pull request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: pull-request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh_pr_up() { gh pr create "$@" --fill -d || gh pr edit "$@"; }
+          gh_pr_up --title "chore: $MESSAGE"
