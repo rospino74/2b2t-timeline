@@ -6,6 +6,9 @@ on:
       - dev
   workflow_dispatch:
 
+permissions:
+  pull-requests: write
+
 env:
   MESSAGE: Merge branch `${{ github.head_ref || github.ref_name }}` into `master`
 
@@ -16,11 +19,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-      - name: Open pull request
-        uses: repo-sync/pull-request@v2
-        with:
-          destination_branch: master
-          pr_draft: true
-          pr_title: 'chore: ${{ env.MESSAGE }}'
-          pr_body: |
-            This pull request will ${{ env.MESSAGE }}.
+      - name: pull-request
+        run: |
+          gh_pr_up() { gh pr create $* || gh pr edit $* }
+          gh_pr_up --title "chore: ${{ env.MESSAGE }}" --fill
