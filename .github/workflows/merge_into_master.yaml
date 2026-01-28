@@ -7,8 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  DESTINATION: master
-  MESSAGE: Merge branch `${{ github.head_ref || github.ref_name }}` into `${{ env.DESTINATION }}`
+  MESSAGE: Merge branch `${{ github.head_ref || github.ref_name }}` into `master`
 
 jobs:
   pull-request:
@@ -20,7 +19,7 @@ jobs:
       - name: Open pull request
         uses: repo-sync/pull-request@v2
         with:
-          destination_branch: ${{ env.DESTINATION }}
+          destination_branch: master
           pr_draft: true
           pr_title: 'chore: ${{ env.MESSAGE }}'
           pr_body: |
