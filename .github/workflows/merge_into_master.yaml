@@ -20,9 +20,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - name: pull-request
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh_pr_up() { gh pr create "$@" --fill || gh pr edit "$@"; }
+          gh_pr_up() { gh pr create $* --fill -d || gh pr edit $*; }
           gh_pr_up --title "chore: $MESSAGE"
