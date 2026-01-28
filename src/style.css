@@ -1,0 +1,170 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --event-text-color: #6d0101;
+}
+
+body {
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Cambria', 'Times New Roman', Times, serif;
+  /* background-color: rosybrown; */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#timeline-container {
+  position: relative;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  padding: 0 50px;
+
+  display: grid;
+  grid-template-rows: 1fr 8px 1fr;
+
+  /* La linea temporale centrale */
+  .year-line {
+    grid-row: 2 / 3;
+
+    /* see the grid template */
+    height: 100%;
+    background-color: var(--text-color);
+    z-index: 1;
+  }
+
+  .ages-area {
+    grid-row: 1 / 2;
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .age-cover {
+    height: 200px;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    container-type: size;
+
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke: #000 0.5px;
+
+    .age-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+
+      /* Make the overlay slightly tinted */
+      background-color: color(from var(--event-text-color) srgb r g b / 0.8);
+      background-blend-mode: multiply;
+      filter: brightness(0.8);
+    }
+
+    .age-name {
+      margin-top: auto;
+      margin-bottom: auto;
+
+      /* font-size: 35px; */
+      font-size: clamp(14px, 15cqw, 45px);
+      color: var(--event-text-color);
+      text-shadow: 0 1px 1px #0008;
+    }
+
+    .age-meta {
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .events-area {
+    grid-row: 3 / 4;
+    position: relative;
+  }
+
+  .event-group,
+  .year-group {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .year-group {
+    z-index: 5;
+
+    .year-marker {
+      width: 4px;
+      background-color: #d44;
+    }
+
+    .year-label {
+      font-weight: bold;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+    }
+  }
+
+  .event-group {
+    &.major-event {
+      flex-direction: column-reverse;
+
+      .event-marker {
+        width: 4px;
+        height: 200px;
+      }
+
+      .event-label {
+        font-size: 12px;
+        font-weight: bold;
+
+        max-width: 150px;
+        margin-bottom: 5px;
+      }
+    }
+
+    .event-marker {
+      width: 2px;
+      color: var(--text-color);
+      background-color: var(--text-color);
+
+      position: relative;
+      z-index: 1;
+    }
+
+    .event-label {
+      font-size: 10px;
+
+      max-width: 85px;
+
+      color: var(--event-text-color);
+      background-color: var(--bg-color);
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+
+      position: relative;
+      z-index: 2;
+    }
+  }
+}

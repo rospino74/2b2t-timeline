@@ -1,0 +1,855 @@
+{
+    "events": [
+        {
+            "date": "2010-12-01T00:00:00.000Z",
+            "description": "2b2t begins",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2011-05-01T00:00:00.000Z",
+            "description": "Player Data Corruption",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2011-07-01T00:00:00.000Z",
+            "description": "Judge Holden posts the first page of 2b2t comic",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2012-01-01T00:00:00.000Z",
+            "description": "2b2t gets backdoored",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2012-04-01T00:00:00.000Z",
+            "description": "End of Republic Project",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2012-02-01T00:00:00.000Z",
+            "description": "1mil base is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2012-04-01T00:00:00.000Z",
+            "description": "Imperator's Base is Founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2012-06-01T00:00:00.000Z",
+            "description": "2k2k becomes last home for Facepunchers",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-02-01T00:00:00.000Z",
+            "description": "Hitlerwood is Founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-04-01T00:00:00.000Z",
+            "description": "Valkyria is founded",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-05-01T00:00:00.000Z",
+            "description": "1.5.0 Dupe",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-06-01T00:00:00.000Z",
+            "description": "1st Spawn Incursion",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-08-01T00:00:00.000Z",
+            "description": "2nd Spawn Incursion",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-10-01T00:00:00.000Z",
+            "description": "The legendary NFE is destroyed one last time.",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-10-01T00:00:00.000Z",
+            "description": "End of the Incursion",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-10-01T00:00:00.000Z",
+            "description": "Shenandoah is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2013-12-01T00:00:00.000Z",
+            "description": "2b2t gets backdoored a second time",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2014-05-01T00:00:00.000Z",
+            "description": "2k2k is buried in lavacast",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2014-06-01T00:00:00.000Z",
+            "description": "The Legion of Shenandoah Begins",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2014-06-01T00:00:00.000Z",
+            "description": "Gape 1 is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2014-06-01T00:00:00.000Z",
+            "description": "Fenrir is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2014-10-01T00:00:00.000Z",
+            "description": "Nova is founded on 3b3t",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2014-12-01T00:00:00.000Z",
+            "description": "Southern Canal is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-01-01T00:00:00.000Z",
+            "description": "2b2t updated to 1.8",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-02-01T00:00:00.000Z",
+            "description": "Fernir project is finished",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-03-01T00:00:00.000Z",
+            "description": "Asgard II is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-04-01T00:00:00.000Z",
+            "description": "Begins the Third Spawn Incursion",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-05-01T00:00:00.000Z",
+            "description": "Aureus is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-05-01T00:00:00.000Z",
+            "description": "Vortex Coalition founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-06-01T00:00:00.000Z",
+            "description": "King's Landing is Founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-06-01T00:00:00.000Z",
+            "description": "Last Facepunch Thread is closed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-08-01T00:00:00.000Z",
+            "description": "Project Vault begins",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2015-10-05T07:00:00.000Z",
+            "description": "Motherboard Article is released",
+            "isMajor": false,
+            "wikiUrl": "https://www.vice.com/en/article/the-worst-place-in-minecraft/"
+        },
+        {
+            "date": "2015-12-01T00:00:00.000Z",
+            "description": "Imperator's Base is destroyed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-02-29T00:00:00.000Z",
+            "description": "RPS Article is released",
+            "isMajor": false,
+            "wikiUrl": "https://www.rockpapershotgun.com/minecrafts-most-obscene-server"
+        },
+        {
+            "date": "2016-03-01T00:00:00.000Z",
+            "description": "Olympus is destroyed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-03-01T00:00:00.000Z",
+            "description": "BedTP exploit",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-03-30T00:00:00.000Z",
+            "description": "OP'd Account is stolen and used to abuse the server",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-04-01T00:00:00.000Z",
+            "description": "The Land of Norphs is destroyed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-04-18T00:00:00.000Z",
+            "description": "Space Valkyria is destroyed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-04-20T00:00:00.000Z",
+            "description": "KGB is destroyed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "TheCampingRusher starts his series on 2b2t",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "4th Reich is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-07-01T00:00:00.000Z",
+            "description": "Priority/Veteran Queue",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "2b2t is forced into a hardware upgrade to sustain the amount of players",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-08-01T00:00:00.000Z",
+            "description": "Lag Machines begins to be used against youtubers",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-11-11T00:00:00.000Z",
+            "description": "Drop Dupe",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-11-23T00:00:00.000Z",
+            "description": "Fifth Incursion Begins/Ends",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2016-12-01T00:00:00.000Z",
+            "description": "Emperium Founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-01-01T00:00:00.000Z",
+            "description": "Book Ban is discovered",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-02-01T00:00:00.000Z",
+            "description": "SpawnMasons founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-02-25T00:00:00.000Z",
+            "description": "All Maps Deleted",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-03-27T23:44:00.000Z",
+            "description": "World Border Reached",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-04-02T00:00:00.000Z",
+            "description": "Highland is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-05-20T00:00:00.000Z",
+            "description": "Point Dory is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-06-01T00:00:00.000Z",
+            "description": "Society founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-07-01T00:00:00.000Z",
+            "description": "1.12 Dupe patched",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-07-28T00:00:00.000Z",
+            "description": "Summermelon is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-07-01T00:00:00.000Z",
+            "description": "2b2t Museum opens",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-09-01T00:00:00.000Z",
+            "description": "ElRichMC arrives on the server",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-09-15T00:00:00.000Z",
+            "description": "ElRichMC arrives on the server",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-09-30T00:00:00.000Z",
+            "description": "Elytras disabled",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-10-13T00:00:00.000Z",
+            "description": "PreJune queue removed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2017-12-20T00:00:00.000Z",
+            "description": "Astral Order is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-01-10T00:00:00.000Z",
+            "description": "U.G.E is made",
+            "isMajor": false,
+            "wikiUrl": "https://2b2t.miraheze.org/wiki/United_Group_Embassy"
+        },
+        {
+            "date": "2018-03-20T00:00:00.000Z",
+            "description": "Temp Map",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-04-03T00:00:00.000Z",
+            "description": "AntVenom's Video",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-05-01T00:00:00.000Z",
+            "description": "Boedecken is griefed during 31days31griefs",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-05-01T00:00:00.000Z",
+            "description": "Equilibrium griefed during 31days31griefs",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-06-01T00:00:00.000Z",
+            "description": "Block Game Mecca is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-09-01T00:00:00.000Z",
+            "description": "Fuzelli starts a series on 2b2t",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-10-01T00:00:00.000Z",
+            "description": "7th Incursion begins/ends",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2018-11-01T00:00:00.000Z",
+            "description": "Chunk Dupe discovered",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-02-01T00:00:00.000Z",
+            "description": "Godmode Exploit is discovered",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-03-01T00:00:00.000Z",
+            "description": "Youtube alghorithm promotes the server",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-05-01T00:00:00.000Z",
+            "description": "Etika Streams 2b2t",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-06-01T00:00:00.000Z",
+            "description": "The purge Concludes",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-05-01T00:00:00.000Z",
+            "description": "Space Valkyria III is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-08-01T00:00:00.000Z",
+            "description": "Infinity Incursion is founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-08-01T00:00:00.000Z",
+            "description": "8th Incursion Ends",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-09-01T00:00:00.000Z",
+            "description": "Entity Speed Patched",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-09-09T00:00:00.000Z",
+            "description": "2b2t appears on Wikipedia",
+            "isMajor": false,
+            "wikiUrl": "https://en.wikipedia.org/w/index.php?title=2b2t&direction=prev&oldid=914888588"
+        },
+        {
+            "date": "2019-11-01T00:00:00.000Z",
+            "description": "NoServerNovember",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-11-22T00:00:00.000Z",
+            "description": "100k Mapping Project is released",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-12-18T00:00:00.000Z",
+            "description": "The Death of Donkey Dupe",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-12-08T00:00:00.000Z",
+            "description": "Elysium is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2019-12-25T00:00:00.000Z",
+            "description": "Largest Spawn logo built by Spawnmasons using Baritone",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-02-16T00:00:00.000Z",
+            "description": "Monastery is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-02-28T00:00:00.000Z",
+            "description": "Authentication Fuck-up",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-03-01T00:00:00.000Z",
+            "description": "COVID-19 Shuts the world down",
+            "isMajor": false,
+            "wikiUrl": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+        },
+        {
+            "date": "2020-05-04T00:00:00.000Z",
+            "description": "FitMC Hits 1M subs on YT",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-07-01T00:00:00.000Z",
+            "description": "Bedrock Comet destroyed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-08-01T00:00:00.000Z",
+            "description": "Obsidian Labyrinth",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-09-23T00:00:00.000Z",
+            "description": "Spawn Flooded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-10-21T00:00:00.000Z",
+            "description": "Phobos Client Backdoor event",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-11-12T00:00:00.000Z",
+            "description": "The 2b2t article is featured on the front page of Wikipedia",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-12-02T00:00:00.000Z",
+            "description": "Hausemaster's PayPal account is suspended",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2020-12-17T00:00:00.000Z",
+            "description": "Fifth Coumn griefing group founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-02-12T00:00:00.000Z",
+            "description": "All overworld borders reached",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-03-10T00:00:00.000Z",
+            "description": "Vortex Coalition disbands",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-04-16T00:00:00.000Z",
+            "description": "Avalysium griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-04-04T00:00:00.000Z",
+            "description": "SBA Founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-05-29T00:00:00.000Z",
+            "description": "Imperator's Base 2 Griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-07-16T00:00:00.000Z",
+            "description": "No Com gets patched",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-06-16T00:00:00.000Z",
+            "description": "Whitehaven griefed by its members",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-07-29T00:00:00.000Z",
+            "description": "Nether border reached legit",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-08-22T00:00:00.000Z",
+            "description": "Astral Brotherhood Founded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-08-22T00:00:00.000Z",
+            "description": "Infinity Incursion is disbanded",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-12-01T00:00:00.000Z",
+            "description": "Krobars Interdimensional Bridge Griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2021-11-24T00:00:00.000Z",
+            "description": "Log4Shell exploit ravages the Minecraft community",
+            "isMajor": true,
+            "wikiUrl": "https://en.wikipedia.org/wiki/Log4Shell"
+        },
+        {
+            "date": "2022-02-26T00:00:00.000Z",
+            "description": "2B2T Times disbands",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-03-01T00:00:00.000Z",
+            "description": "Mapopoly construction completed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-07-01T00:00:00.000Z",
+            "description": "Corner Base griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-08-01T00:00:00.000Z",
+            "description": "Aureus City Rebuild",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-10-01T00:00:00.000Z",
+            "description": "Sky Masons Griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-11-01T00:00:00.000Z",
+            "description": "DonFuer 25 Self Grief",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-12-01T00:00:00.000Z",
+            "description": "2B2T changes it's logo",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2022-12-01T00:00:00.000Z",
+            "description": "5 Isles Griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2023-02-01T00:00:00.000Z",
+            "description": "Spawnquarium begins",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2023-08-14T21:50:00.000Z",
+            "description": "Server updates to 1.19.4",
+            "isMajor": true,
+            "wikiUrl": null
+        },
+        {
+            "date": "2023-08-14T21:50:00.000Z",
+            "description": "Chunks are trimmed and the economy is reset",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2023-08-26T21:41:00.000Z",
+            "description": "Hausemaster rolls back the server to the final 1.12.2 backup",
+            "isMajor": false,
+            "wikiUrl": null
+        }
+    ],
+    "ages": [
+        {
+            "startDate": "2010-12-01T00:00:00.000Z",
+            "endDate": "2012-04-01T00:00:00.000Z",
+            "name": "Age of Unrest",
+            "version": [
+                "1.2 Beta",
+                "1.8 Beta"
+            ],
+            "playerCount": [
+                50,
+                80
+            ],
+            "color": "#ccface",
+            "background": "unrest.png"
+        },
+        {
+            "startDate": "2012-04-01T00:00:00.000Z",
+            "endDate": "2013-04-01T00:00:00.000Z",
+            "name": "The Great Decay Period",
+            "version": [
+                "1.4.2",
+                "1.4.7"
+            ],
+            "playerCount": [
+                80,
+                20
+            ],
+            "color": "#cf96f7",
+            "background": "great_decay.png"
+        },
+        {
+            "startDate": "2013-04-01T00:00:00.000Z",
+            "endDate": "2015-08-01T00:00:00.000Z",
+            "name": "Age of Resurgence",
+            "version": [
+                "1.4.7",
+                "1.8.6"
+            ],
+            "playerCount": [
+                15,
+                50
+            ],
+            "color": "#2fc6ca",
+            "background": "resurgence.png"
+        },
+        {
+            "startDate": "2015-08-01T00:00:00.000Z",
+            "endDate": "2016-06-01T00:00:00.000Z",
+            "name": "Pre-Hype Period",
+            "version": [
+                "1.8.8",
+                "1.9.6"
+            ],
+            "playerCount": [
+                50,
+                60
+            ],
+            "color": "#42a990",
+            "background": "pre_hype.png"
+        },
+        {
+            "startDate": "2016-06-01T00:00:00.000Z",
+            "endDate": "2019-03-01T00:00:00.000Z",
+            "name": "Age of Hype",
+            "version": [
+                "1.10",
+                "1.12.2"
+            ],
+            "playerCount": [
+                60,
+                250
+            ],
+            "color": "#face00",
+            "background": "hype.png"
+        },
+        {
+            "startDate": "2019-03-01T00:00:00.000Z",
+            "endDate": "2021-11-24T00:00:00.000Z",
+            "name": "Automation Period",
+            "version": [
+                "1.12.2"
+            ],
+            "playerCount": [
+                500,
+                900
+            ],
+            "color": "#df2e38",
+            "background": "automation.jpg"
+        },
+        {
+            "startDate": "2021-11-24T00:00:00.000Z",
+            "endDate": "2023-08-14T21:50:00.000Z",
+            "name": "Consolidation Period",
+            "version": [
+                "1.12.2"
+            ],
+            "playerCount": [
+                150,
+                200
+            ],
+            "color": "#8585ff",
+            "background": "consolidation.jpg"
+        },
+        {
+            "startDate": "2023-08-14T21:50:00.000Z",
+            "endDate": null,
+            "name": "Progressive Era",
+            "version": [
+                "1.19.4"
+            ],
+            "playerCount": [
+                200,
+                750
+            ],
+            "color": "#819ade",
+            "background": ""
+        }
+    ]
+}
