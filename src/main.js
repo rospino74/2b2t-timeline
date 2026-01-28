@@ -2,7 +2,7 @@ import './style.css'
 import { createYearLine, createEvent, createMajorEvent, createAgeCover } from './timeline.js';
 import { events as rawEvents, ages as rawAges } from "./timeline.json";
 
-// Riferimenti DOM
+// DOM references
 const container = document.querySelector('#timeline-container');
 const agesArea = container.querySelector('.ages-area');
 const eventArea = container.querySelector('.events-area');
@@ -43,5 +43,5 @@ function generateTimeline() {
   });
 }
 
-// Avvia al caricamento
+// Generate the timeline on page load
 generateTimeline();

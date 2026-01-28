@@ -22,7 +22,7 @@ import { searchBestYPosition, getDaysDiff } from './utils.js';
  */
 
 /**
- * Numero di pixel per giorno nella timeline
+ * Number of pixels per day in the timeline
  */
 const PIXELS_PER_DAY = 0.6;
 
@@ -30,7 +30,7 @@ const TIMELINE_PADDING_Y = 20;
 const BOX_PADDING_Y = 10;
 
 /**
- * Qui salviamo le posizioni finali {x, y, w, h}
+ * Here we store the final label positions {x, y, w, h}
  * @type {{x: number, y: number, w: number, h: number}[]}
  */
 const placedRects = [];
@@ -68,13 +68,13 @@ function createYearMarker(container, year, xPos) {
 }
 
 /**
- * Costruisce la linea temporale degli anni partendo dall'evento più vecchio
- * fino a quello più recente.
+ * Constructs the year timeline starting from the oldest event
+ * to the most recent one.
  * 
- * Costruisce il relativo evento nel DOM.
+ * Constructs the corresponding event in the DOM.
  * 
- * @param {HTMLElement} container Il container dove appendere la linea
- * @param {TimelineEvent[]} events Array di eventi
+ * @param {HTMLElement} container The container where to append the line
+ * @param {TimelineEvent[]} events Array of events
  */
 export function createYearLine(container, startDate, endDate) {
     // Then calculate how much space we need
@@ -126,7 +126,7 @@ export function createEvent(eventArea, event, startDate) {
     // First let's create the container and the marker
     const group = document.createElement('div');
     group.className = 'event-group';
-    group.style.visibility = 'hidden'; // Nascondi per misurare
+    group.style.visibility = 'hidden'; // Hide until positioned
     eventArea.appendChild(group);
 
     const marker = document.createElement('div');
