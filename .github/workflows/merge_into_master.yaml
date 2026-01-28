@@ -26,5 +26,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh_pr_up() { gh pr create $* --fill -d || gh pr edit $*; }
+          gh_pr_up() { gh pr create "$@" --fill -d || gh pr edit "$@"; }
           gh_pr_up --title "chore: $MESSAGE"
