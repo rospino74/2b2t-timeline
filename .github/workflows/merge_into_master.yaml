@@ -22,5 +22,5 @@ jobs:
         uses: actions/checkout@v5
       - name: pull-request
         run: |
-          gh_pr_up() { gh pr create $* || gh pr edit $* }
-          gh_pr_up --title "chore: ${{ env.MESSAGE }}" --fill
+          gh_pr_up() { gh pr create "$@" || gh pr edit "$@"; }
+          gh_pr_up --title "chore: $MESSAGE" --fill
