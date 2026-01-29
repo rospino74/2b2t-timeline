@@ -137,7 +137,11 @@ export function createEvent(eventArea, event, startDate) {
     // Then create the label
     const el = document.createElement('span');
     el.className = 'event-label';
-    el.innerHTML = `${event.description}<br>(${event.date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }).replace(' ', '&nbsp;')})`;
+    el.innerHTML = `${event.description}
+    <br>
+    <time datetime="${event.date.toISOString()}">
+        (${event.date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }).replace(' ', '&nbsp;')})
+    </time>`;
 
     group.appendChild(el);
 
