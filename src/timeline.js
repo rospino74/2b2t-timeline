@@ -27,7 +27,7 @@ import { searchBestYPosition, getDaysDiff } from './utils.js';
  */
 const PIXELS_PER_DAY = 0.6;
 
-const TIMELINE_PADDING_Y = 20;
+const TIMELINE_PADDING_Y = 10;
 const BOX_PADDING_Y = 10;
 
 /**
@@ -98,35 +98,10 @@ export function createYearLine(container, startDate, endDate) {
     } while (currentDate <= endDate);
 }
 
-export function createMajorEvent(eventArea, event, startDate) {
-    // First let's create the container, the marker and the label
-    const group = document.createElement('div');
-    group.className = 'event-group major-event';
-    group.style.visibility = 'hidden';
-    eventArea.appendChild(group);
-
-    const marker = document.createElement('div');
-    marker.className = 'event-marker';
-    group.appendChild(marker);
-
-    const el = document.createElement('span');
-    el.className = 'event-label';
-    el.innerHTML = `${event.description}<br>(${event.date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })})`;
-    group.appendChild(el);
-
-    // Then center the group
-    const daysFromStart = getDaysDiff(startDate, event.date);
-    const xPos = daysFromStart * PIXELS_PER_DAY - (el.offsetWidth / 2);
-    group.style.left = `${xPos}px`;
-
-    // And finally show the element
-    group.style.visibility = 'visible';
-}
-
 export function createEvent(eventArea, event, startDate) {
     // First let's create the container and the marker
     const group = document.createElement('div');
-    group.className = 'event-group';
+    group.className = `event-group ${event.isMajor ? 'major-event' : ''}`;
     group.style.visibility = 'hidden'; // Hide until positioned
     eventArea.appendChild(group);
 
@@ -137,8 +112,13 @@ export function createEvent(eventArea, event, startDate) {
     // Then create the label
     const el = document.createElement('span');
     el.className = 'event-label';
-    el.innerHTML = `${event.description}<br>(${event.date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })})`;
-
+    el.innerHTML = `
+        ${event.description}
+        <br>
+        <time datetime="${event.date.toISOString()}">
+            (${event.date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }).replace(' ', '&nbsp;')})
+        </time>
+    `;
     group.appendChild(el);
 
     // Now we need to center the group
@@ -146,19 +126,21 @@ export function createEvent(eventArea, event, startDate) {
     const xPos = daysFromStart * PIXELS_PER_DAY - (el.offsetWidth / 2);
     group.style.left = `${xPos}px`;
 
-    // And finally start the gravity algorithm
-    const width = el.offsetWidth;
-    const height = el.offsetHeight;
-    let bestY = searchBestYPosition(xPos, width, height, BOX_PADDING_Y / 2, placedRects);
-    marker.style.height = (bestY + BOX_PADDING_Y) + 'px';
+    // Run the gravity algorithm for non-major events
+    if (!event.isMajor) {
+        const width = el.offsetWidth;
+        const height = el.offsetHeight;
+        let bestY = searchBestYPosition(xPos, width, height, BOX_PADDING_Y / 2, placedRects);
+        marker.style.height = (bestY + BOX_PADDING_Y) + 'px';
 
-    // Save the position
-    placedRects.push({
-        x: xPos,
-        y: bestY,
-        w: width,
-        h: height
-    });
+        // Save the position
+        placedRects.push({
+            x: xPos,
+            y: bestY,
+            w: width,
+            h: height
+        });
+    }
 
     // After everything is done show the element
     group.style.visibility = 'visible';
@@ -170,14 +152,16 @@ export function createAgeCover(ageArea, age, startDate) {
     group.className = 'age-cover';
     group.style.setProperty("--event-text-color", age.color);
     group.innerHTML = `
-    <div class="age-background" style="background-image: url(${age.background})"></div>
-    <div class="age-items">
-    ${age.items ? age.items.map(item => `<img src="${item}" role="presentation" class="age-item" />`).join('') : ''}
-    </div>
-    <div class="age-name">${age.name}</div>
-    <div class="age-meta">${age.version.join(' - ')}
-    <br>
-    (${age.playerCount?.[0] ?? 0} - ${age.playerCount?.[1] ?? 0} Players)</div>
+        <div class="age-background" style="background-image: url(${age.background})"></div>
+        <div class="age-items">
+            ${age.items ? age.items.map(item => `<img src="${item}" role="presentation" class="age-item" />`).join('') : ''}
+        </div>
+        <div class="age-name">${age.name}</div>
+        <div class="age-meta">
+            ${age.version.join(' - ')}
+            <br>
+            (${age.playerCount?.[0] ?? 0} - ${age.playerCount?.[1] ?? 0} Players)
+        </div>
     `;
 
     const startX = getDaysDiff(startDate, age.startDate) * PIXELS_PER_DAY;

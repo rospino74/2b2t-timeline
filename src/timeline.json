@@ -709,6 +709,12 @@
             "wikiUrl": null
         },
         {
+            "date": "2023-04-09T00:00:00.000Z",
+            "description": "Dubrovnik is self-griefed",
+            "isMajor": false,
+            "wikiUrl": "https://2b2t.miraheze.org/wiki/Dubrovnik"
+        },
+        {
             "date": "2023-08-14T21:50:00.000Z",
             "description": "Server updates to 1.19.4",
             "isMajor": true,
@@ -723,6 +729,120 @@
         {
             "date": "2023-08-26T21:41:00.000Z",
             "description": "Hausemaster rolls back the server to the final 1.12.2 backup",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2023-09-20T00:00:00.000Z",
+            "description": "The Beneath Cursed Sands base is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2023-10-05T00:00:00.000Z",
+            "description": "The Fifth Column griefs The 2b2t Museum",
+            "isMajor": false,
+            "wikiUrl": "https://www.youtube.com/watch?v=RjUDjR1a_tA"
+        },
+        {
+            "date": "2024-04-29T00:00:00.000Z",
+            "description": "2b2t is updated to 1.20",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2024-04-29T00:00:00.000Z",
+            "description": "IHackedWalmart finds the eye armor trim",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2024-06-01T00:00:00.000Z",
+            "description": "Zion Canyon (aka 2AO) is griefed",
+            "isMajor": false,
+            "wikiUrl": "https://www.youtube.com/watch?v=hVMAGHQ5UMA&t=117s"
+        },
+        {
+            "date": "2024-08-20T00:00:00.000Z",
+            "description": "The Communist Party of 2b2t collapses due to leadership issues",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2024-10-01T00:00:00.000Z",
+            "description": "Chat logs and coords are leaked from Donfuer discord",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2024-11-10T00:00:00.000Z",
+            "description": "The Wedding Planners host the 2b2t Oscars",
+            "isMajor": false,
+            "wikiUrl": "https://www.reddit.com/r/2b2t/comments/1guowgh/2b2t_oscars_20232024_wrap_up/"
+        },
+        {
+            "date": "2025-02-17T00:00:00.000Z",
+            "description": "The Brownmen starts chunkbanning players",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-02-25T00:00:00.000Z",
+            "description": "The -Z Highway is completed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-02-06T00:00:00.000Z",
+            "description": "The -X Nether Highway is completed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-03-26T00:00:00.000Z",
+            "description": "The +Z Nether Highway is completed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-06-04T00:00:00.000Z",
+            "description": "2b2t is updated to 1.21.4",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-10-24T00:00:00.000Z",
+            "description": "Bedrock Event Base is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-11-09T00:00:00.000Z",
+            "description": " jared2013's 2014 base is griefed after 11 years",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-11-23T00:00:00.000Z",
+            "description": "The Wedding Planners host the 2b2t Oscars",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-12-12T00:00:00.000Z",
+            "description": "2b2t adds Bedrock support",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-12-20T00:00:00.000Z",
+            "description": "2b2t adds new rules against offensive builds and messages",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-12-25T00:00:00.000Z",
+            "description": "Imperator's Base is rebuilt and then griefed by its creators",
             "isMajor": false,
             "wikiUrl": null
         }
@@ -745,7 +865,7 @@
                 80
             ],
             "color": "#ccface",
-            "background": "unrest.png"
+            "background": "ages/unrest.png"
         },
         {
             "startDate": "2012-04-01T00:00:00.000Z",
@@ -760,7 +880,7 @@
                 20
             ],
             "color": "#cf96f7",
-            "background": "great_decay.png"
+            "background": "ages/great_decay.png"
         },
         {
             "startDate": "2013-04-01T00:00:00.000Z",
@@ -780,13 +900,13 @@
                 50
             ],
             "color": "#2fc6ca",
-            "background": "resurgence.png"
+            "background": "ages/resurgence.png"
         },
         {
             "startDate": "2015-08-01T00:00:00.000Z",
             "endDate": "2016-06-01T00:00:00.000Z",
             "items": [
-                "underwater_tnt.png"
+                "banners/underwater_tnt.png"
             ],
             "name": "Pre-Hype Period",
             "version": [
@@ -798,7 +918,7 @@
                 60
             ],
             "color": "#42a990",
-            "background": "pre_hype.png"
+            "background": "ages/pre_hype.png"
         },
         {
             "startDate": "2016-06-01T00:00:00.000Z",
@@ -823,7 +943,7 @@
                 250
             ],
             "color": "#face00",
-            "background": "hype.png"
+            "background": "ages/hype.png"
         },
         {
             "startDate": "2019-03-01T00:00:00.000Z",
@@ -837,7 +957,7 @@
                 900
             ],
             "color": "#df2e38",
-            "background": "automation.jpg"
+            "background": "ages/automation.webp"
         },
         {
             "startDate": "2021-11-24T00:00:00.000Z",
@@ -851,21 +971,22 @@
                 200
             ],
             "color": "#8585ff",
-            "background": "consolidation.jpg"
+            "background": "ages/consolidation.jpg"
         },
         {
             "startDate": "2023-08-14T21:50:00.000Z",
-            "endDate": null,
+            "endDate": "2026-01-01T00:00:00.000Z",
             "name": "Progressive Era",
             "version": [
-                "1.19.4"
+                "1.19.4",
+                "1.21.4"
             ],
             "playerCount": [
                 200,
                 750
             ],
-            "color": "#819ade",
-            "background": ""
+            "color": "#9dface",
+            "background": "ages/progressive.webp"
         }
     ]
 }
