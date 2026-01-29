@@ -15,7 +15,8 @@ import { searchBestYPosition, getDaysDiff } from './utils.js';
  * @property {Date} startDate - The starting date of the age
  * @property {Date} endDate - The ending date of the age
  * @property {string} name - The name of the age
- * @property {[string, string]} version - The Minecraft versions included in this age
+ * @property {string[]?} items - A list of items to display over the age name
+ * @property {string[]} version - The Minecraft versions included in this age
  * @property {[number, number]} playerCount - The average min and max player count during this age
  * @property {string} background - The background cover URL
  * @property {string} color - The css color of the age
@@ -170,6 +171,9 @@ export function createAgeCover(ageArea, age, startDate) {
     group.style.setProperty("--event-text-color", age.color);
     group.innerHTML = `
     <div class="age-background" style="background-image: url(${age.background})"></div>
+    <div class="age-items">
+    ${age.items ? age.items.map(item => `<img src="${item}" role="presentation" class="age-item" />`).join('') : ''}
+    </div>
     <div class="age-name">${age.name}</div>
     <div class="age-meta">${age.version.join(' - ')}</div>
     <div class="age-meta">(${age.playerCount?.[0] ?? 0} - ${age.playerCount?.[1] ?? 0} Players)</div>

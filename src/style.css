@@ -121,6 +121,21 @@ body {
       font-size: 22px;
       color: white;
     }
+
+    .age-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      flex-wrap: nowrap;
+
+      .age-item {
+        /* height: 60px; */
+        width: 30px;
+        object-fit: contain;
+        display: block;
+      }
+    }
   }
 
   .events-area {
