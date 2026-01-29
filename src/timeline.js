@@ -27,7 +27,7 @@ import { searchBestYPosition, getDaysDiff } from './utils.js';
  */
 const PIXELS_PER_DAY = 0.6;
 
-const TIMELINE_PADDING_Y = 20;
+const TIMELINE_PADDING_Y = 10;
 const BOX_PADDING_Y = 10;
 
 /**

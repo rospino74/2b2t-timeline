@@ -16,20 +16,20 @@ body {
   height: 100vh;
 
   display: grid;
-  grid-template-rows: auto 1fr 8px 1fr;
+  grid-template-rows: auto 1fr 6px 2fr;
   grid-template-columns: 1fr;
 }
 
 .header {
   display: flex;
   align-items: center;
-  padding: 10px 50px;
+  padding: 10px 40px;
   position: relative;
 
   grid-row: 1 / 2;
 
   .logo {
-    height: 80px;
+    height: 60px;
   }
 
   h1 {
@@ -38,7 +38,7 @@ body {
     transform: translateX(-50%);
     margin: 0;
 
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .credits {
@@ -46,7 +46,7 @@ body {
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: 22px;
+    font-size: 18px;
 
     a {
       display: inline-flex;
@@ -54,7 +54,7 @@ body {
     }
 
     .credits-icon {
-      height: 22px;
+      height: 18px;
       object-fit: contain;
     }
   }
@@ -66,7 +66,7 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
 
-  padding: 0 50px;
+  padding: 0 40px;
 
   grid-row: 2 / 5;
 
@@ -92,7 +92,7 @@ body {
   }
 
   .age-cover {
-    height: 200px;
+    height: 150px;
 
     position: absolute;
     bottom: 0;
@@ -101,7 +101,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    gap: 10px;
+    gap: 5px;
 
     container-type: size;
 
@@ -128,13 +128,13 @@ body {
 
     .age-name {
       /* font-size: 35px; */
-      font-size: clamp(14px, 15cqw, 45px);
+      font-size: clamp(12px, 15cqw, 35px);
       color: var(--event-text-color);
       text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
     }
 
     .age-meta {
-      font-size: 22px;
+      font-size: 18px;
       color: white;
     }
 
@@ -142,12 +142,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 25px;
+      gap: 24px;
       flex-wrap: nowrap;
 
       .age-item {
         /* height: 60px; */
-        width: 30px;
+        width: 24px;
         object-fit: contain;
         display: block;
       }
@@ -191,15 +191,15 @@ body {
 
       .event-marker {
         width: 4px;
-        height: 200px;
+        height: 150px;
       }
 
       .event-label {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
 
-        max-width: 150px;
-        margin-bottom: 5px;
+        max-width: 120px;
+        margin-bottom: 4px;
       }
     }
 
@@ -213,9 +213,9 @@ body {
     }
 
     .event-label {
-      font-size: 10px;
+      font-size: 8px;
 
-      max-width: 85px;
+      max-width: 70px;
 
       color: var(--event-text-color);
       background-color: var(--bg-color);
