@@ -14,6 +14,10 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr 8px 1fr;
+  grid-template-columns: 1fr;
 }
 
 .header {
@@ -21,6 +25,8 @@ body {
   align-items: center;
   padding: 10px 50px;
   position: relative;
+
+  grid-row: 1 / 2;
 
   .logo {
     height: 80px;
@@ -44,8 +50,10 @@ body {
 
   padding: 0 50px;
 
+  grid-row: 2 / 5;
+
   display: grid;
-  grid-template-rows: 1fr 8px 1fr;
+  grid-template-rows: subgrid;
 
   /* Central line */
   .year-line {
