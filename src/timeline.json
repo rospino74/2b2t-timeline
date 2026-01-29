@@ -781,13 +781,25 @@
             "wikiUrl": "https://www.reddit.com/r/2b2t/comments/1guowgh/2b2t_oscars_20232024_wrap_up/"
         },
         {
+            "date": "2025-02-17T00:00:00.000Z",
+            "description": "The Brownmen starts chunkbanning players",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
             "date": "2025-02-25T00:00:00.000Z",
             "description": "The -Z Highway is completed",
             "isMajor": false,
             "wikiUrl": null
         },
         {
-            "date": "2025-02-25T00:00:00.000Z",
+            "date": "2025-02-06T00:00:00.000Z",
+            "description": "The -X Nether Highway is completed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-03-26T00:00:00.000Z",
             "description": "The +Z Nether Highway is completed",
             "isMajor": false,
             "wikiUrl": null
@@ -795,6 +807,18 @@
         {
             "date": "2025-06-04T00:00:00.000Z",
             "description": "2b2t is updated to 1.21.4",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-10-24T00:00:00.000Z",
+            "description": "Bedrock Event Base is griefed",
+            "isMajor": false,
+            "wikiUrl": null
+        },
+        {
+            "date": "2025-11-09T00:00:00.000Z",
+            "description": " jared2013's 2014 base is griefed after 11 years",
             "isMajor": false,
             "wikiUrl": null
         },
