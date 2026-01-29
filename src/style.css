@@ -14,6 +14,32 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr 8px 1fr;
+  grid-template-columns: 1fr;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  position: relative;
+
+  grid-row: 1 / 2;
+
+  .logo {
+    height: 80px;
+  }
+
+  h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+
+    font-size: 40px;
+  }
 }
 
 #timeline-container {
@@ -24,8 +50,10 @@ body {
 
   padding: 0 50px;
 
+  grid-row: 2 / 5;
+
   display: grid;
-  grid-template-rows: 1fr 8px 1fr;
+  grid-template-rows: subgrid;
 
   /* Central line */
   .year-line {
@@ -54,7 +82,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    gap: 10px;
 
     container-type: size;
 
@@ -80,9 +109,6 @@ body {
     }
 
     .age-name {
-      margin-top: auto;
-      margin-bottom: auto;
-
       /* font-size: 35px; */
       font-size: clamp(14px, 15cqw, 45px);
       color: var(--event-text-color);
@@ -92,6 +118,21 @@ body {
     .age-meta {
       font-size: 22px;
       color: white;
+    }
+
+    .age-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      flex-wrap: nowrap;
+
+      .age-item {
+        /* height: 60px; */
+        width: 30px;
+        object-fit: contain;
+        display: block;
+      }
     }
   }
 

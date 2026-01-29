@@ -355,12 +355,6 @@
             "wikiUrl": null
         },
         {
-            "date": "2017-09-01T00:00:00.000Z",
-            "description": "ElRichMC arrives on the server",
-            "isMajor": false,
-            "wikiUrl": null
-        },
-        {
             "date": "2017-09-15T00:00:00.000Z",
             "description": "ElRichMC arrives on the server",
             "isMajor": false,
@@ -737,6 +731,10 @@
         {
             "startDate": "2010-12-01T00:00:00.000Z",
             "endDate": "2012-04-01T00:00:00.000Z",
+            "items": [
+                "banners/4channers.png",
+                "banners/facepunchers.png"
+            ],
             "name": "Age of Unrest",
             "version": [
                 "1.2 Beta",
@@ -767,6 +765,11 @@
         {
             "startDate": "2013-04-01T00:00:00.000Z",
             "endDate": "2015-08-01T00:00:00.000Z",
+            "items": [
+                "banners/valkyria.png",
+                "banners/legion_shenandoah.png",
+                "banners/vortex_coalition.png"
+            ],
             "name": "Age of Resurgence",
             "version": [
                 "1.4.7",
@@ -782,6 +785,9 @@
         {
             "startDate": "2015-08-01T00:00:00.000Z",
             "endDate": "2016-06-01T00:00:00.000Z",
+            "items": [
+                "underwater_tnt.png"
+            ],
             "name": "Pre-Hype Period",
             "version": [
                 "1.8.8",
@@ -797,6 +803,16 @@
         {
             "startDate": "2016-06-01T00:00:00.000Z",
             "endDate": "2019-03-01T00:00:00.000Z",
+            "items": [
+                "banners/emperium.png",
+                "banners/the_society.png",
+                "banners/4th_reich.png",
+                "banners/the_resistance.png",
+                "banners/spawn_masons.png",
+                "banners/pacekeepers.png",
+                "banners/veterans.png",
+                "banners/team_rusher.png"
+            ],
             "name": "Age of Hype",
             "version": [
                 "1.10",
