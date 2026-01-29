@@ -175,8 +175,9 @@ export function createAgeCover(ageArea, age, startDate) {
     ${age.items ? age.items.map(item => `<img src="${item}" role="presentation" class="age-item" />`).join('') : ''}
     </div>
     <div class="age-name">${age.name}</div>
-    <div class="age-meta">${age.version.join(' - ')}</div>
-    <div class="age-meta">(${age.playerCount?.[0] ?? 0} - ${age.playerCount?.[1] ?? 0} Players)</div>
+    <div class="age-meta">${age.version.join(' - ')}
+    <br>
+    (${age.playerCount?.[0] ?? 0} - ${age.playerCount?.[1] ?? 0} Players)</div>
     `;
 
     const startX = getDaysDiff(startDate, age.startDate) * PIXELS_PER_DAY;
