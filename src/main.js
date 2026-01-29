@@ -1,5 +1,5 @@
 import './style.css'
-import { createYearLine, createEvent, createMajorEvent, createAgeCover } from './timeline.js';
+import { createYearLine, createEvent, createAgeCover } from './timeline.js';
 import { events as rawEvents, ages as rawAges } from "./timeline.json";
 
 // DOM references
@@ -34,9 +34,5 @@ ages.forEach(age => {
 
 // And finally place events
 events.forEach(ev => {
-  if (ev.isMajor) {
-    createMajorEvent(agesArea, ev, startDate);
-  } else {
-    createEvent(eventArea, ev, startDate);
-  }
+  createEvent(ev.isMajor ? agesArea : eventArea, ev, startDate);
 });
