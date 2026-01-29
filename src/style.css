@@ -40,6 +40,24 @@ body {
 
     font-size: 40px;
   }
+
+  .credits {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 22px;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .credits-icon {
+      height: 22px;
+      object-fit: contain;
+    }
+  }
 }
 
 #timeline-container {
