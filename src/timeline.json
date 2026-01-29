@@ -841,7 +841,7 @@
                 80
             ],
             "color": "#ccface",
-            "background": "unrest.png"
+            "background": "ages/unrest.png"
         },
         {
             "startDate": "2012-04-01T00:00:00.000Z",
@@ -856,7 +856,7 @@
                 20
             ],
             "color": "#cf96f7",
-            "background": "great_decay.png"
+            "background": "ages/great_decay.png"
         },
         {
             "startDate": "2013-04-01T00:00:00.000Z",
@@ -876,13 +876,13 @@
                 50
             ],
             "color": "#2fc6ca",
-            "background": "resurgence.png"
+            "background": "ages/resurgence.png"
         },
         {
             "startDate": "2015-08-01T00:00:00.000Z",
             "endDate": "2016-06-01T00:00:00.000Z",
             "items": [
-                "underwater_tnt.png"
+                "banners/underwater_tnt.png"
             ],
             "name": "Pre-Hype Period",
             "version": [
@@ -894,7 +894,7 @@
                 60
             ],
             "color": "#42a990",
-            "background": "pre_hype.png"
+            "background": "ages/pre_hype.png"
         },
         {
             "startDate": "2016-06-01T00:00:00.000Z",
@@ -919,7 +919,7 @@
                 250
             ],
             "color": "#face00",
-            "background": "hype.png"
+            "background": "ages/hype.png"
         },
         {
             "startDate": "2019-03-01T00:00:00.000Z",
@@ -933,7 +933,7 @@
                 900
             ],
             "color": "#df2e38",
-            "background": "automation.jpg"
+            "background": "ages/automation.jpg"
         },
         {
             "startDate": "2021-11-24T00:00:00.000Z",
@@ -947,7 +947,7 @@
                 200
             ],
             "color": "#8585ff",
-            "background": "consolidation.jpg"
+            "background": "ages/consolidation.jpg"
         },
         {
             "startDate": "2023-08-14T21:50:00.000Z",
