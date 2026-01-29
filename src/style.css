@@ -16,6 +16,26 @@ body {
   height: 100vh;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  position: relative;
+
+  .logo {
+    height: 80px;
+  }
+
+  h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+
+    font-size: 40px;
+  }
+}
+
 #timeline-container {
   position: relative;
   height: 100%;
