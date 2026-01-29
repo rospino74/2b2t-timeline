@@ -112,7 +112,7 @@ body {
       /* font-size: 35px; */
       font-size: clamp(14px, 15cqw, 45px);
       color: var(--event-text-color);
-      text-shadow: 0 1px 1px #0008;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
     }
 
     .age-meta {
