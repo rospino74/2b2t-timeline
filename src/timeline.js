@@ -79,7 +79,7 @@ function createYearMarker(container, year, xPos) {
  */
 export function createYearLine(container, startDate, endDate) {
     // Then calculate how much space we need
-    const totalDays = getDaysDiff(startDate, endDate) + 50; // Extra 50 days padding
+    const totalDays = getDaysDiff(startDate, endDate);
     const lineWidth = totalDays * PIXELS_PER_DAY;
 
     // Create year markers
