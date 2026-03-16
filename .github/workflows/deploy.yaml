@@ -37,7 +37,7 @@ jobs:
       - name: Build site
         run: yarn build
       - name: Upload build files
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         id: deployment
         with:
           path: ./dist
