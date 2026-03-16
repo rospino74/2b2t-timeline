@@ -20,7 +20,10 @@ const ages = rawAges.map(age => ({
 
 
 // We first need to find the earliest and latest dates
-const dates = events.map(ev => ev.date);
+const dates = Array.prototype.concat(
+  events.map(ev => ev.date),
+  ages.flatMap(a => [a.startDate, a.endDate])
+)
 const startDate = new Date(Math.min(...dates));
 const endDate = new Date(Math.max(...dates));
 
