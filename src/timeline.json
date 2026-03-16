@@ -845,6 +845,18 @@
             "description": "Imperator's Base is rebuilt and then griefed by its creators",
             "isMajor": false,
             "wikiUrl": null
+        },
+        {
+            "date": "2025-12-28T00:00:00.000Z",
+            "description": "SalC1 speaks about the new rules",
+            "isMajor": false,
+            "wikiUrl": "https://www.youtube.com/watch?v=frMvy05GnRA"
+        },
+        {
+            "date": "2026-02-27T00:00:00.000Z",
+            "description": "FitMC denounces the current situation on 2b2t",
+            "isMajor": false,
+            "wikiUrl": "https://www.youtube.com/watch?v=HUExHfkEwLM"
         }
     ],
     "ages": [
@@ -975,7 +987,7 @@
         },
         {
             "startDate": "2023-08-14T21:50:00.000Z",
-            "endDate": "2026-01-01T00:00:00.000Z",
+            "endDate": "2026-06-01T00:00:00.000Z",
             "name": "Progressive Era",
             "version": [
                 "1.19.4",
